@@ -1,0 +1,114 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Formularios y Tablas</title>
+    </head>
+    <body>
+    <h1>Formularios y Tablas</h1>
+
+    <table>
+        <table border="1">
+        <tr>
+            <th>Lunes </th>
+            <th>Martes </th>
+            <th>Miércoles</th>
+            <th>Jueves </th>
+            <th>Viernes </th>
+            <th>Sábado </th>
+            <th>Domingo </th>
+        </tr>
+        <tr>
+            <td>Curso js </td>
+            <td>Curso Bootstrap </td>
+            <td>Curso de java </td>
+            <td>Curso de SpringBoot </td>
+            <td>Curso de HTML </td>
+            <td rowspan="5">Ingles </td>
+            <td rowspan="5">Descanso </td>
+        </tr>
+        <tr>
+            <td>Curso de HTML </td>
+            <td>Curso de SpringBoot </td>
+            <td>Curso Bootstrap </td>
+            <td>Curso de java </td>
+            <td>Curso js </td>
+        </tr>
+        <tr>
+            <td>Curso Bootstrap </td>
+            <td>Curso de java </td>
+            <td>Curso de HTML </td>
+            <td>Curso js </td>
+            <td>Curso de SpringBoot </td>
+        </tr>
+        <tr>
+            <td>Curso de SpringBoot </td>
+            <td>Curso de HTML </td>
+            <td>Curso js </td>
+            <td>Curso Bootstrap </td>
+            <td>Curso de java </td>
+        </tr>
+        <tr>
+            <td>Curso de java </td>
+            <td>Curso js </td>
+            <td>Curso de SpringBoot </td>
+            <td>Curso de HTML </td>
+            <td>Curso Bootstrap </td>
+        </tr>
+    </table> -->
+
+        <hr />
+
+        <form method="POST">
+          <h3>Registrate</h3>
+            <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" placeholder="Bernardino ..." required/>
+            </p> 
+            <p>
+                    <label for="email">Correo electrónico: </label>
+                    <input type="email" name="email" placeholder="bernardo@gmail.com" required />
+            </p>
+            <p>
+                    <label for="password">Contraseña </label>
+                    <input type="password" name="password" required/>
+            </p>
+            <p>
+                    <label for="Cumpleanios">Cumpleaños </label>
+                    <input type="number" name="Cumpleanios" required/>
+                    <input type="month" name="Cumpleanios" required/>
+            </p>
+            <p>
+                <select name="meses" id="">
+                    <option value="enero">Enero</option>
+                    <option value="febrero">Febrero</option>
+                    <option value="marzo">Marzo</option>
+                    <option value="abril">Abril</option>
+                </select>
+            </p>
+            <p>
+               <input type="checkbox"/>
+                 <label for="">opcion 1 </label>
+        </p> 
+        <p>
+            <input type="radio" name="color" value="Rojo">
+            <label for="color">Rojo</label>
+            <input type="radio" name="color" value="Amarillo">
+            <label for="color">Amarillo</label>
+            <input type="radio" name="color" value="Azul">
+            <label for="color">Azul</label>
+            <input type="radio" name="color" value="Verde>
+            <label for="Color">Verde</label>
+            <p>
+                <textarea name="muchotexto" id="" cols="150" rows="20"></textarea>
+            </p>
+        </p>
+            <p>
+<!--            <input type="submit" value="registrar" /> -->
+            <button type="submit">Registrar</button>
+          </p>
+       </form> 
+
+    </body>
+    
+</html>

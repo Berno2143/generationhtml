@@ -1,0 +1,35 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    color: white;
+    background:gray;
+    } 
+
+p1>img{
+     float: left; 
+}
+p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    color: white;
+    background:gray;
+
+} 
+p2>img{
+    float: left; 
+}
+p2{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   
+}
